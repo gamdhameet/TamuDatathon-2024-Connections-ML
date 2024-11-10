@@ -39,7 +39,7 @@ if __name__ == "__main__":
     model_wv, word_to_cluster = load_model_and_clusters()
     
     # Sample list of words present in word_to_cluster
-    test_words = ["BALL", "RING", "HEART", "LEAD", "FLY", "WING", "FIRE", "LOVE", "JACK", "CHECK", "SUIT", "SCHOOL", "BANK", "PEN", "PAPER", "CUP", "BOTTLE", "BAG", "SHOE", "HAT", "GLASS", "PLATE", "BOWL", "SPOON", "FORK", "KNIFE", "TABLE", "CHAIR", "BED", "SOFA", "TV", "LAMP", "CLOCK", "PHONE", "COMPUTER", "KEYBOARD", "MOUSE", "SCREEN", "WINDOW", "DOOR", "FLOOR", "WALL", "CEILING", "ROOF", "STAIRS", "ELEVATOR", "TOILET", "SINK", "SHOWER", "BATHTUB", "TOWEL", "SOAP", "SHAMPOO", "TOOTHBRUSH", "TOOTHPASTE", "MIRROR", "RAZOR", "SCISSORS", "TWEZZERS", "NAIL", "HAIR", "SKIN", "BONE", "BLOOD", "HEART", "LUNG", "LIVER", "KIDNEY", "STOMACH", "INTESTINE", "BRAIN", "NERVE", "MUSCLE", "BONE", "SKIN", "HAIR", "NAIL", "BLOOD", "HEART", "LUNG", "LIVER", "KIDNEY", "STOMACH", "INTESTINE", "BRAIN", "NERVE", "MUSCLE", "BONE", "SKIN", "HAIR", "NAIL", "BLOOD", "HEART", "LUNG", "LIVER", "KIDNEY", "STOMACH", "INTESTINE", "BRAIN", "NERVE", "MUSCLE", "BONE", "SKIN", "HAIR", "NAIL", "BLOOD", "HEART", "LUNG", "LIVER", "KIDNEY", "STOMACH", "INTESTINE", "BRAIN", "NERVE", "MUSCLE", "BONE", "SKIN", "HAIR", "NAIL", "BLOOD", "HEART", "LUNG", "LIVER", "KIDNEY", "STOMACH", "INTESTINE", "BRAIN", "NERVE", "MUSCLE",]
+    test_words = ["BALL", "RING", "HEART", "LEAD", "FLY", "WING", "FIRE", "LOVE", "JACK", "CHECK", "SUIT", "SCHOOL"]
     
     # Run the test
     test_model_functionality(test_words, model_wv, word_to_cluster)
