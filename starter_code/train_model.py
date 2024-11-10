@@ -17,7 +17,7 @@ def preprocess_data(df):
     sentences = grouped.tolist()
     return sentences
 
-def train_word2vec(sentences, vector_size=50, window=7, epochs=20):
+def train_word2vec(sentences, vector_size=500, window=7, epochs=20):
     model_wv = Word2Vec(sentences, vector_size=vector_size, window=window, min_count=1, workers=4, epochs=epochs)
     model_wv.save("word2vec_nyt_connections.model")
     print("Word2Vec model trained and saved.")
